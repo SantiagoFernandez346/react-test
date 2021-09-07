@@ -1,25 +1,9 @@
-import logo from './logo.svg';
+import "boostrap/dist/css/boostrap.min.css";
 import './App.css';
-
-function App() {
+import navBar form  "./src/navBar";
+const app = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <navBar />
+  )
 }
-
 export default App;
